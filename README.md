@@ -1,4 +1,4 @@
-Python Face Detector
+Python Face Detector:-
 This is a simple face detection application built using OpenCV in Python. The application uses a pre-trained Haar Cascade classifier to detect faces in real-time video streams.
 Features
 •	Real-time face detection from video files or webcam.
