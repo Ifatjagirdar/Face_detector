@@ -37,7 +37,7 @@ import cv2  # Import the OpenCV library for computer vision tasks
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Open a video file or webcam feed for face detection
-webcam = cv2.VideoCapture(r'C:\Users\jagir\OneDrive\Desktop\ifat.mp4')
+webcam = cv2.VideoCapture(r'C:\path\to\your\video.mp4')
 
 while True:
     # Read a frame from the video feed
