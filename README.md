@@ -63,11 +63,19 @@ while True:
         break  # Exit the loop
 Code Comments Explained
 •	Importing Libraries: The cv2 library is imported to utilize its computer vision functionalities.
+
 •	Loading the Haar Cascade Classifier: The CascadeClassifier is initialized with the Haar Cascade XML file to detect faces.
+
 •	Setting Up Video Capture: The VideoCapture function opens the specified video file for processing.
+
 •	Reading Frames in a Loop: A while loop continuously reads frames from the video.
+
 •	Converting Frame to Grayscale: The cvtColor function converts the frame to grayscale to improve face detection accuracy.
+
 •	Detecting Faces: The detectMultiScale method identifies faces in the grayscale image, returning their coordinates.
+
 •	Drawing Rectangles Around Detected Faces: For each detected face, a rectangle is drawn on the original frame to highlight it.
+
 •	Displaying the Video Stream: The imshow function displays the current frame with detected faces.
+
 •	Exiting the Loop: The program checks for a key press to break the loop and stop detection.
